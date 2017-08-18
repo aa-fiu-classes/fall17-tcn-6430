@@ -20,7 +20,7 @@ However, the programming is always related to this class's networking topic.
 
 ## Status of Syllabus:
 
-Current. (Last updated: 08/12/2017)
+Current. (Last updated: 08/18/2017)
 
 ## Course Objectives
 
@@ -51,19 +51,15 @@ In addition, students expected to do their own research online, using Wikipedia,
   <table class="table table-striped table-hover table-bordered">
     <tr>
       <td>Final exam</td>
-      <td>35%</td>
+      <td>30%</td>
     </tr>
     <tr>
-      <td>Class Project</td>
+      <td>Class Projects</td>
+      <td>40%</td>
+    </tr>
+    <tr>
+      <td>Homeworks / Labs</td>
       <td>20%</td>
-    </tr>
-    <tr>
-      <td>Final Project (Literature Survey)</td>
-      <td>25%</td>
-    </tr>
-    <tr>
-      <td>Homeworks</td>
-      <td>10%</td>
     </tr>
     <tr>
       <td>Literature Review and Paper Presentation</td>
@@ -118,7 +114,7 @@ All assignments and projects will be collected via [Gradescope](https://gradesco
 
 ## Future Changes to This Document
 
-From Faculty's handbook: 
+From Faculty's handbook:
 
 Instructors retain the right to modify the course syllabus for any reason throughout the semester provided that:
 

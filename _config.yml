@@ -16,6 +16,13 @@ author: Alex Afanasyev
 baseurl: ""
 url: ""
 
+timezone: America/New_York
+
+spreadsheets:
+  google_client_id: _data/google-id.json
+  spreadsheet:
+    - "1wTyt7MFeroN1d2TUiFpvAYEyplFrPg7Fy4ZJTGfcr8Q"
+
 assets:
   compress:
     css: true
