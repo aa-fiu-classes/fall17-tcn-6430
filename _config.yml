@@ -24,11 +24,6 @@ spreadsheets:
     - "1wTyt7MFeroN1d2TUiFpvAYEyplFrPg7Fy4ZJTGfcr8Q"
 
 assets:
-  compress:
-    css: true
-    js: true
-
-  digest: false
   cache: .sass-cache
 
   sources:
