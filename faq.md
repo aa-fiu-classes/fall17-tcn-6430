@@ -95,7 +95,6 @@ Several notes:
 
         docker run -ti --rm my bash
 
-4. You can run another command in the existing container using `docker attach`
+4. You can run another command in the existing running container using `docker exec`
 
-
-        docker attach -ti <hash-of-the-container> <command-to-run>
+        docker exec -ti <hash-of-the-container> <command-to-run>
