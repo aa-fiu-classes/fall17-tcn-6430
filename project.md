@@ -151,57 +151,50 @@ Detailed instructions for setting up the experiment environment:
 
 3. Explore OpenDaylight web GUI and Mininet
 
-    To see a live view of the network, go to [http://localhost:8181/index.html](http://localhost:8181/index.html)  (login credentials are admin/admin)
+    To see a live view of the network, go to [http://localhost:8181/index.html#/topology](http://localhost:8181/index.html#/topology)  (login credentials are admin/admin)
 
-    Until you start any network activity in the Mininet, you will see just switch.  After you start pinging hosts inside Mininet, the hosts will appear and you will be able to see per-port statistics.
+    Until you start any network activity in the Mininet, you will see just switch. After you start pinging hosts inside Mininet, the hosts will appear and you will be able to see per-port statistics.
 
-4. Explore RESTCONF API
-
-    To access API documentation for different YANG models for the working controller, go to [http://localhost:8181/apidoc/explorer/index.html](http://localhost:8181/apidoc/explorer/index.html)
-
-{% comment %} 
-> The particularly important one for this project is Firewall API, which is illustrated in the attached document *firewall\_rest\_api.pdf*.
-{% endcomment %}
+4. Explore flow table that is populated by the SDN controller.  Use `sudo ovs-ofctl dump-flows s1` and `sudo ovs-ofctl dump-flows s2` commands at different stages.
 
 Exercise
 --------
 
-1. Create the following topology in Mininet: (Note: s1 and s2 are switches, h1, h2, h3 and h4 are hosts. **The bandwidth of each link is also given and must be implemented.** ) Take a screenshot of the Mininet output that shows the topology is correctly set up.
+1. Create the following topology in Mininet: (Note: `s1` and `s2` are switches, `h1`, `h2`, `h3`, and `h4` are hosts. **The bandwidth of each link is also given and must be implemented.** ).  Include output of `dump`, `nodes`, `links` commands in your report.
 
-    <!-- ![](media/image1.png){width="5.386976159230096in" height="2.375in"} -->
+    {% img 'project-topology.png' %}
 
-    You will need to create a simple python file to do this.
-    Refer to the walkthrough in Step 5 above, look for the “*Custom Topologies*” section to see an example Python script. You can modify the example script to create the topology shown above.
+    You will need to create a simple python file to do this (or generate using Mininet topology editor).
     You will also need to include the `bw=X` setting when adding links in the script, where X is a number such as 20, 15, 10 or 5.
     Finally, when starting Mininet using the `sudo mn ...` command, you will need to add `--link=tc` to enforce the bandwidth setting in the resulting network.
     `tc` stands for `traffic control`.
 
-1.  Connecting the above Mininet topology to SDN Controller. Test the connectivity among the hosts, using the **pingall** command. Include screenshot of the output.
+2. Connect the above Mininet topology to SDN Controller. Test the connectivity among the hosts, using the **pingall** command. Include screenshot of the output.
 
-2.  *Immediately After* finishing the pingall test, take a screenshot of the network topology as displayed by OpenDaylight
+3. *Immediately After* finishing the pingall test, take a screenshot of the network topology as displayed by OpenDaylight
 
-3.  Now use `iperf` to confirm the bandwidth between h1 and h4, between h2 and h3, between h1 and h2, and between h3 and h4. Include the screenshots of all the iperf output.
+4. Now use `iperf` to confirm the bandwidth between `h1` and `h4`, between `h2` and `h3`, between `h1` and `h2`, and between `h3` and `h4`. Include the screenshots of all the `iperf` output.
 
-More tasks will be posted later.
+5. Report and interpet content of flow tables in switches `s1` and `s2`:
 
-<!-- 4.  Using the REST Firewall API, implement the following access-control policy: the communication between h1 and h3, and between h2 and h4, should be blocked; communication between any other pairs of hosts are allowed. Use **pingall** again to verify and include the screenshot of the output. -->
-
-<!-- Note: if you are on Linux or MAC OS, you can issue the REST API commands from your host machine; if you are on Windows, you may need to issue those command inside the virtual machine since windows does not come with the `curl` utility software. -->
-
-{% comment %}
+  - just after starting Mininet
+  - after running `h1 ping h4`
+  - after running `pingall`
 
 Submission Guide:
 -----------------
 
-Please submit all of the following:
+Please submit to gradescope a report in PDF format that includes the following descriptions:
 
-1. a txt, doc or pdf file that describes your experience in following the Instructions in this handout for setting up the experiment environment, particularly any problem that you have encountered and how you resolved them. Be sure to detail any issue that you could not resolve.
+- your experience setting up Linux environment
+- installing and working with Mininet, working with Mininet
+- working with SDN controller
 
-2. The python file that you used to create the topology for the exercise.
+Make sure you list encountered problems and how you (tried to) resolved them.
 
-3. All the screenshots you have been asked to take in the Exercise section. Make sure the resolution is high enough so that the screenshots can be easily read!
+Your description **must include screenshots** at different stages of your experimentation. Make sure the resolution is high enough so that the screenshots can be easily read!
 
-4. The REST Firewall API commands that you used to implement the access-control policy in the exercise.
+{% comment %}
 
 Grading Criteria:
 -----------------
