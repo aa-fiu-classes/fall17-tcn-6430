@@ -14,6 +14,8 @@ This course provides students with a comprehensive view of the network managemen
 We will study the network management concepts in concrete applications and scenarios such as MPLS, VPN, VLAN, etc.
 As a highlight of this course, we will also spend significant amount of time studying emerging networking technologies such as Software Defined Networking, to better prepare students for managing future IT infrastructures.
 
+{% comment %}
+
 ## Course Announcements
 
 - <span class="label label-primary">NOTE</span>
@@ -22,3 +24,5 @@ As a highlight of this course, we will also spend significant amount of time stu
 ## Class Calendar
 
 <iframe src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;height=400&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=6eco1ljq069rtb61o1ue4q490g%40group.calendar.google.com&ctz=America/New_York" style="border-width:0" width="450" height="400" frameborder="0" scrolling="no"></iframe>
+
+{% endcomment %}

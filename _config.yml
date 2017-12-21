@@ -18,10 +18,10 @@ url: "https://users.cs.fiu.edu"
 
 timezone: America/New_York
 
-spreadsheets:
-  google_client_id: _data/google-id.json
-  spreadsheet:
-    - "1wTyt7MFeroN1d2TUiFpvAYEyplFrPg7Fy4ZJTGfcr8Q"
+# spreadsheets:
+#   google_client_id: _data/google-id.json
+#   spreadsheet:
+#     - "1wTyt7MFeroN1d2TUiFpvAYEyplFrPg7Fy4ZJTGfcr8Q"
 
 assets:
   cache: .sass-cache

@@ -1,0 +1,161 @@
+---
+- week: '1'
+  date: Aug 21, 2017
+  topics: Class Logistics & Intro to network management problem
+  notes: ''
+  '': '1'
+- week: ''
+  date: Aug 23, 2017
+  topics: Networking Review I (Up the stack)
+  notes: ''
+  '': '2'
+- week: '2'
+  date: Aug 28, 2017
+  topics: Networking Review II (DNS, DHCP)
+  notes: ''
+  '': '3'
+- week: ''
+  date: Aug 30, 2017
+  topics: Network tools intro/demo (Vagrant, Docker)
+  notes: ''
+  '': '4'
+- week: '3'
+  date: Sep 4, 2017
+  topics: ''
+  notes: No class (labor day)
+  '': ''
+- week: ''
+  date: Sep 6, 2017
+  topics: ''
+  notes: Canceled due to hurricane
+  '': ''
+- week: '4'
+  date: Sep 11, 2017
+  topics: ''
+  notes: Canceled due to hurricane
+  '': ''
+- week: ''
+  date: Sep 13, 2017
+  topics: ''
+  notes: Canceled due to hurricane
+  '': ''
+- week: '5'
+  date: Sep 18, 2017
+  topics: Network Management Problem
+  notes: ''
+  '': '5'
+- week: ''
+  date: Sep 20, 2017
+  topics: Advanced Networking Overview
+  notes: ''
+  '': '6'
+- week: '6'
+  date: Sep 25, 2017
+  topics: ''
+  notes: ''
+  '': ''
+- week: ''
+  date: Sep 27, 2017
+  topics: VLANs, SDN, OpenFlow
+  notes: ''
+  '': '7'
+- week: '7'
+  date: Oct 2, 2017
+  topics: Python Intro II
+  notes: ''
+  '': '8'
+- week: ''
+  date: Oct 4, 2017
+  topics: Python Intro II
+  notes: ''
+  '': '9'
+- week: '8'
+  date: Oct 9, 2017
+  topics: NETCONF, YANG, RESTCONF
+  notes: ''
+  '': '10'
+- week: ''
+  date: Oct 11, 2017
+  topics: MiniNet tutuorial
+  notes: ''
+  '': '11'
+- week: '9'
+  date: Oct 16, 2017
+  topics: MPLS
+  notes: ''
+  '': '12'
+- week: ''
+  date: Oct 18, 2017
+  topics: Named Data Networking
+  notes: ''
+  '': '13'
+- week: '10'
+  date: Oct 23, 2017
+  topics: Midterm
+  notes: Take home midterm (no class)
+  '': ''
+- week: ''
+  date: Oct 25, 2017
+  topics: Midterm
+  notes: Take home midterm (no class)
+  '': ''
+- week: '11'
+  date: Oct 30, 2017
+  topics: Midterm Review
+  notes: ''
+  '': '14'
+- week: ''
+  date: Nov 1, 2017
+  topics: Presentations
+  notes: ''
+  '': '15'
+- week: '12'
+  date: Nov 6, 2017
+  topics: Presentations
+  notes: ''
+  '': '16'
+- week: ''
+  date: Nov 8, 2017
+  topics: Presentations
+  notes: ''
+  '': '17'
+- week: '13'
+  date: Nov 13, 2017
+  topics: Presentations
+  notes: ''
+  '': '18'
+- week: ''
+  date: Nov 15, 2017
+  topics: Presentations
+  notes: ''
+  '': '19'
+- week: '14'
+  date: Nov 20, 2017
+  topics: Presentations
+  notes: ''
+  '': ''
+- week: ''
+  date: Nov 22, 2017
+  topics: Presentations
+  notes: ''
+  '': ''
+- week: '15'
+  date: Nov 27, 2017
+  topics: Presentations
+  notes: ''
+  '': '20'
+- week: ''
+  date: Nov 29, 2017
+  topics: Presentations
+  notes: ''
+  '': '21'
+- week: '16'
+  date: Dec 4, 2017
+  topics: Presentations
+  notes: "(extended semester)"
+  '': '22'
+- week: ''
+  date: Dec 6, 2017
+  topics: Presentations
+  notes: "(extended semester)"
+  '': '23'

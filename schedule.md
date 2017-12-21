@@ -19,6 +19,5 @@ group: Schedule
     <td>{{ item.notes | default: "&nbsp;" }}</td>
   </tr>
 {% endfor %}
-</table>
 
-Schedule updated on {{ site.data.spreadsheets_updated.schedule }}
+<!-- Schedule updated on {{ site.data.spreadsheets_updated.schedule }} -->
